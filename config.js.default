@@ -1,0 +1,12 @@
+// change the name of this file to 'config.js'
+module.exports = {
+  'httpPort': 80,
+  'token': 'mytoken',           // 公众号的令牌
+  'encodingAesKey': 'mykey',    // 公众号的消息加解密密钥
+
+  'appId': 'xxxxxxxxxxxxxxxxx',     // 应用 ID
+  'appSecret': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',  // 应用密钥
+
+  'downloadPath': './download',
+  'logName': 'log'
+};

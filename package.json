@@ -1,0 +1,28 @@
+{
+  "name": "wechat_filesaver",
+  "description": "保存用户发送到公众号的消息.",
+  "keywords": [
+    "wechat"
+  ],
+  "homepage": "https://github.com/bssthu/wechat_filesaver",
+  "version": "0.1.0",
+  "author": {
+    "name": "bssthu"
+  },
+  "main": "./server",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bssthu/wechat_filesaver.git"
+  },
+  "dependencies": {
+    "xml2js": ">=0.2.3",
+    "request": "~2.74.0"
+  },
+  "license": "LGPLv3",
+  "bugs": {
+    "url": "https://github.com/bssthu/wechat_filesaver/issues"
+  }
+}
